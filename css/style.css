@@ -1,0 +1,92 @@
+body{
+    background-image: url(../img/fundo.jpg);
+    height: 1200px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    gap: 20px;
+}
+
+.menu{
+    width:5%;
+    color: white;
+    background-color: darkblue;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.menu img{
+    border-radius: 50%;
+    width: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.menu a{
+    display: none;
+    margin-top: 80px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+.menu:hover{
+    width: 10%;
+    transition: transform 1s;
+}
+    
+.menu:hover img{
+    display: none;
+    transition-delay: 3s, 250ms;
+}
+
+.menu:hover a{
+    display: block;
+    
+}
+
+
+.container{
+    width: 85%;
+    background-color: yellow;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.capa{
+    width: 100%;
+    height: 200px;
+    background-color: red;
+}
+
+.temporadas{
+    width: 100%;
+    background-color: green ;
+    height: 200px;
+}
+
+.personagens{
+    width: 100%;
+    background-color: blue ;
+    height: 200px;
+}
+
+.curiosidades{
+    width: 100%;
+    background-color: orange ;
+    height: 200px;
+}
+
+.trilha_sonora{
+    width: 100%;
+    background-color: pink ;
+    height: 200px;
+}
+
+.menu a img{
+    width: 20px;
+}
